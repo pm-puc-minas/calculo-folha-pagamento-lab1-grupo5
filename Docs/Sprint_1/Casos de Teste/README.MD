@@ -4,9 +4,9 @@
 - Calcular se o valor do salário for 0 retorna 0.
 
 ## TesteCalculoINSS
-- Verificar cálculo progressivo para cada faixa salarial da tabela.  
-- Testar salário no teto (deve parar no limite).  
-- Testar salário acima do teto (deve considerar só até o teto).
+- Calcular se o valor do INSS vai retornar corretamente com base no cálculo progressivo para cada faixa salarial da tabela.
+- Calcular se o valor do INSS vai retornar corretamente caso o salário seja igual ao teto (deve parar no limite).
+- Calcular se o valor do INSS vai retornar corretamente caso o salário seja maior que o teto (deve considerar até o teto).
 
 ## TesteCalculoIRRF
 - Calcular se o valor do IRRF vai retornar corretamente com base no salário bruto definido para o funcionário com nenhum dependente.
@@ -42,3 +42,4 @@
 ## TesteValeTransporte
 - Calcular se o valor do desconto vai retornar 0 caso o funcionário não receba vale transporte
 - Calcular se o valor do desconto vai retornar o valor do vale transporte (caso seja menor que 6% do valor do salário bruto total) ou vai retornar 6% do valor do salário bruto total (caso seja menor que o valor do vale transporte) caso o funcionário receba vale transporte 
+
