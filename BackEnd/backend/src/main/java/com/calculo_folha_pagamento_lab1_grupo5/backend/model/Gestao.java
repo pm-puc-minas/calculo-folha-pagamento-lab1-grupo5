@@ -5,14 +5,12 @@ import jakarta.persistence.Entity;
 @Entity
 public class Gestao {
 
-    private ArrayList<Funcionario> funcionarios= new ArrayList<>();
-    private Admin administrador;
-
+    private final ArrayList<Funcionario> funcionarios= new ArrayList<>();
+    private Admin admin;
     public ArrayList<Funcionario> getFuncionarios() {
         return funcionarios;
     }
-
-    public Admin getAdministrador() {
-        return administrador;
+    public Admin getAdmin() {
+        return admin;
     }
 }
