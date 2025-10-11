@@ -10,7 +10,7 @@ class TesteCalculoSalarioBrutoTotal {
     void retornaZero() {
         Funcionario f = new Funcionario();
         f.setSalarioBruto(0.0);
-        f.setInsalubridade(EGrauInsalubridade.NENHUM);
+        f.setInsalubridade(EGrauInsalubridade.MAXIMA);
         f.setPericulosidade(false);
 
         salarioBrutoTotal total = new salarioBrutoTotal();

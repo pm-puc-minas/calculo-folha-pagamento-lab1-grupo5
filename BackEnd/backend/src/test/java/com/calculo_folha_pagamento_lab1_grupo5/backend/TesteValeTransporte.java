@@ -13,8 +13,8 @@ public class TesteValeTransporte {
         f.setReceberValeTransporte(false);
         f.setSalarioBruto(2000.00);
 
-        salarioBrutoTotal salarioBruto= new salarioBrutoTotal();
-        calculoValeTransporte transporte= new calculoValeTransporte(salarioBruto);
+        salarioBrutoTotal salarioBrutoTotal = new salarioBrutoTotal();
+        calculoValeTransporte transporte= new calculoValeTransporte(salarioBrutoTotal);
 
         assertEquals(0.0, transporte.calcularDescontos(f));
     }
@@ -28,8 +28,8 @@ public class TesteValeTransporte {
         f.setPericulosidade(false);
         f.setInsalubridade(EGrauInsalubridade.NENHUM);
 
-        salarioBrutoTotal salarioBruto= new salarioBrutoTotal();
-        calculoValeTransporte transporte= new calculoValeTransporte(salarioBruto);
+        salarioBrutoTotal salarioBrutoTotal = new salarioBrutoTotal();
+        calculoValeTransporte transporte= new calculoValeTransporte(salarioBrutoTotal);
 
         assertEquals(80.00, transporte.calcularDescontos(f));
 

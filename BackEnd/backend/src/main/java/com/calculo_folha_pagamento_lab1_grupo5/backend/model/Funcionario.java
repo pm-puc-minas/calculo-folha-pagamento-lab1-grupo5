@@ -10,8 +10,8 @@ public class Funcionario extends Usuario {
     private Double salarioBruto;
     private Double cargaHorariaDiaria;
     private int horasTrabalhadas;
-    private int diasTrabalhadasSemana;
-    private int diasTrabalhados;
+    private int diasTrabalhadosSemana;
+    private int diasTrabalhadosMes;
     private LocalDate dataAdmissao;
     private Boolean receberValeTransporte=false;
     private Boolean receberValeAlimentacao=false;
@@ -35,7 +35,7 @@ public class Funcionario extends Usuario {
         return horasTrabalhadas;
     }
     public int getDiasTrabalhadasSemana() {
-        return diasTrabalhadasSemana;
+        return diasTrabalhadosSemana;
     }
     public LocalDate getDataAdmissao() {
         return dataAdmissao;
@@ -70,7 +70,7 @@ public class Funcionario extends Usuario {
         return custoDiarioAlimentacao;
     }
     public int getdiasTrabalhados() {
-        return diasTrabalhados;
+        return diasTrabalhadosMes;
     }
     public int getDependentes() {
         return dependentes;
@@ -90,11 +90,11 @@ public class Funcionario extends Usuario {
     public void setHorasTrabalhadas(int horasTrabalhadas) {
         this.horasTrabalhadas = horasTrabalhadas;
     }
-    public void setDiasTrabalhadasSemana(int diasTrabalhadasSemana) {
-        this.diasTrabalhadasSemana = diasTrabalhadasSemana;
+    public void setDiasTrabalhadasSemana(int diasTrabalhadosSemana) {
+        this.diasTrabalhadosSemana = diasTrabalhadosSemana;
     }
-    public void setdiasTrabalhados(int diasTrabalhados) {
-        this.diasTrabalhados = diasTrabalhados;
+    public void setdiasTrabalhados(int diasTrabalhadosMes) {
+        this.diasTrabalhadosMes = diasTrabalhadosMes;
     }
     public void setDataAdmissao(LocalDate dataAdmissao) {
         this.dataAdmissao = dataAdmissao;
