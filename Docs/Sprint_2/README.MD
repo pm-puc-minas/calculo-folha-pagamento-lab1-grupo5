@@ -1,7 +1,7 @@
 # Aplicação de Conceitos de Reuso e Organização de Software no Projeto de Cálculo de Folha de Pagamento
 Os conceitos de herança, polimorfismo, interfaces e classes abstratas são aplicados para promover o reuso de código e a organização de software. Isso segue princípios como o SOLID e facilita a extensão futura, como adicionar novos tipos de descontos ou usuários.
 ## 1. Herança e Polimorfismo
-## Herança
+**Herança**
 Permite que classes herdem atributos e métodos de uma superclasse, reutilizando código comum e criando uma hierarquia lógica, assim organizando o software em níveis, reduzindo duplicação e facilitando manutenção.
 ## Polimorfismo
 Permite que objetos de diferentes subclasses sejam tratados de forma uniforme, executando comportamentos específicos em tempo de execução, promovendo flexibilidade e reuso.
@@ -28,6 +28,7 @@ Classes como calculoINSS, calculoIRRF, calculoValeTransporte e calculoValeAlimen
 Usuario é uma classe abstrata que fornece implementação parcial. Isso organiza o código: comum em Usuario, específico nas subclasses.
 ## Reuso e Organização: 
 Subclasses herdam e estendem sem reescrever o básico. Impede instâncias diretas de Usuario, garantindo que sempre haja uma implementação concreta.
+
 
 
 
