@@ -8,6 +8,8 @@ permite que objetos de diferentes subclasses sejam tratados de forma uniforme, e
 ## Herança em Classes de Usuários:
 
 A classe abstrata Usuario serve como superclasse para tipos de usuários comuns no sistema, como funcionarios e administradores. Ela define atributos reutilizáveis como nome, email, senha e métodos comuns como getNome() e setEmail().
+
+
 **Reuso:**
 A classe Funcionario herda de Usuario, reutilizando os atributos e métodos comuns, mas adiciona específicos como salarioBase, numeroDependentes e grauInsalubridade.
 ## Polimorfismo em Uso:
@@ -28,6 +30,7 @@ Classes como calculoINSS, calculoIRRF, calculoValeTransporte e calculoValeAlimen
 Usuario é uma classe abstrata que fornece implementação parcial. Isso organiza o código: comum em Usuario, específico nas subclasses.
 **Reuso e Organização:**
 Subclasses herdam e estendem sem reescrever o básico. Impede instâncias diretas de Usuario, garantindo que sempre haja uma implementação concreta.
+
 
 
 
