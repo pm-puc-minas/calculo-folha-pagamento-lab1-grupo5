@@ -3,6 +3,8 @@ Os conceitos de herança, polimorfismo, interfaces e classes abstratas são apli
 ## 1. Herança e Polimorfismo
 **Herança**
 permite que classes herdem atributos e métodos de uma superclasse, reutilizando código comum e criando uma hierarquia lógica, assim organizando o software em níveis, reduzindo duplicação e facilitando manutenção.
+
+
 **Polimorfismo**
 permite que objetos de diferentes subclasses sejam tratados de forma uniforme, executando comportamentos específicos em tempo de execução, promovendo flexibilidade e reuso.
 ## Herança em Classes de Usuários:
@@ -18,18 +20,25 @@ No serviço de gestão, você pode tratar objetos de Funcionario e Admin polimor
 ## 2. Interfaces e Classes Abstratas
 **Interfaces**
 definem contratos, forçando classes a implementá-los de forma consistente. Isso organiza o software em módulos independentes, permitindo reuso via composição e facilitando testes e injeção de dependências.
+
+
 **Classes Abstratas**
 combinam herança com implementação parcial, fornecendo um esqueleto reutilizável que subclasses completam. Elas organizam código híbrido, evitando duplicação enquanto impõem estrutura.
 ## Interfaces para Cálculos Modulares:
 
 ICalculoDescontos define o contrato para descontos, com o método double calcularDescontos(Funcionario f), permitindo que múltiplas classes implementem descontos diferentes, mas sejam usadas uniformemente.
+
+
 **Reuso e Organização:**
 Classes como calculoINSS, calculoIRRF, calculoValeTransporte e calculoValeAlimentacao implementam a interface, cada uma com lógica específica.
 ## Classes Abstratas para Estrutura Híbrida:
 
 Usuario é uma classe abstrata que fornece implementação parcial. Isso organiza o código: comum em Usuario, específico nas subclasses.
+
+
 **Reuso e Organização:**
 Subclasses herdam e estendem sem reescrever o básico. Impede instâncias diretas de Usuario, garantindo que sempre haja uma implementação concreta.
+
 
 
 
