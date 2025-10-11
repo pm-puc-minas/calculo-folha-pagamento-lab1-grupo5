@@ -13,7 +13,7 @@ A classe Funcionario herda de Usuario, reutilizando os atributos e métodos comu
 ## Polimorfismo em Uso:
 
 No serviço de gestão, você pode tratar objetos de Funcionario e Admin polimorficamente via referência de Usuario, chamando realizarAcao() — para Funcionario, calcula salário; para Admin, gera relatórios.
-## Interfaces e Classes Abstratas
+## 2. Interfaces e Classes Abstratas
 ## Interfaces:
 Definem contratos, forçando classes a implementá-los de forma consistente. Isso organiza o software em módulos independentes, permitindo reuso via composição e facilitando testes e injeção de dependências.
 ## Classes Abstratas: 
@@ -26,7 +26,9 @@ Classes como calculoINSS, calculoIRRF, calculoValeTransporte e calculoValeAlimen
 ## Classes Abstratas para Estrutura Híbrida:
 
 Usuario é uma classe abstrata que fornece implementação parcial. Isso organiza o código: comum em Usuario, específico nas subclasses.
-Reuso e Organização: Subclasses herdam e estendem sem reescrever o básico. Impede instâncias diretas de Usuario, garantindo que sempre haja uma implementação concreta.
+## Reuso e Organização: 
+Subclasses herdam e estendem sem reescrever o básico. Impede instâncias diretas de Usuario, garantindo que sempre haja uma implementação concreta.
+
 
 
 
