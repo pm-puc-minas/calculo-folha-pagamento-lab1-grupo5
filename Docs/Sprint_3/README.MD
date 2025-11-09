@@ -54,4 +54,4 @@ Nesta sprint, avançei na implementação da aplicação de cálculo de folha de
 O projeto atende a todos os requisitos do professor, incluindo coleções, streams, persistência, eventos, arquitetura para frontend e testes unitários. Todos os testes passaram, e os endpoints foram validados no Postman.
 
 ## **PENDENTE PARA A ENTREGA FINAL**
-- Arredondamento dos valores calculados
+- Arredondamento dos valores calculados (pelo uso de double, vários valores ficam "quebrados" após cálculos)
