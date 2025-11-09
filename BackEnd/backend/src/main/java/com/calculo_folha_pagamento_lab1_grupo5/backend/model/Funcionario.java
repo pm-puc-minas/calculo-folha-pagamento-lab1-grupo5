@@ -1,10 +1,15 @@
 package com.calculo_folha_pagamento_lab1_grupo5.backend.model;
 import java.time.LocalDate;
 import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
 
 @Entity
 public class Funcionario extends Usuario {
-
+    
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long idFuncionario;
     private String cargo;
     private Double salarioBruto;
@@ -93,7 +98,7 @@ public class Funcionario extends Usuario {
     public void setDiasTrabalhadasSemana(int diasTrabalhadosSemana) {
         this.diasTrabalhadosSemana = diasTrabalhadosSemana;
     }
-    public void setdiasTrabalhados(int diasTrabalhadosMes) {
+    public void setDiasTrabalhados(int diasTrabalhadosMes) {
         this.diasTrabalhadosMes = diasTrabalhadosMes;
     }
     public void setDataAdmissao(LocalDate dataAdmissao) {

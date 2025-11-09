@@ -45,7 +45,7 @@ public class TesteCalculoSalarioLiquido {
         f.setPericulosidade(false);
         f.setReceberValeAlimentacao(true);
         f.setCustoDiarioAlimentacao(50.0);
-        f.setdiasTrabalhados(20);
+        f.setDiasTrabalhados(20);
         f.setReceberValeTransporte(true);
         f.setCustoValeTransporte(80.0);
         //2000-160.47-0-80 = 1759.53

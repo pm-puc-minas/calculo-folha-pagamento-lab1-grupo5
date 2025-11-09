@@ -9,7 +9,7 @@ public class TesteValeAlimentacao {
     void retornaZero(){
         Funcionario f= new Funcionario();
         f.setReceberValeAlimentacao(false);
-        f.setdiasTrabalhados(20);
+        f.setDiasTrabalhados(20);
         f.setCustoDiarioAlimentacao(30.00);
         calculoValeAlimentacao alimentacao = new calculoValeAlimentacao();
         assertEquals(0.0, alimentacao.calcularDescontos(f));
@@ -19,7 +19,7 @@ public class TesteValeAlimentacao {
     void retornaValorVA(){
         Funcionario f= new Funcionario();
         f.setReceberValeAlimentacao(true);
-        f.setdiasTrabalhados(20);
+        f.setDiasTrabalhados(20);
         f.setCustoDiarioAlimentacao(30.00);
         calculoValeAlimentacao alimentacao = new calculoValeAlimentacao();
         assertEquals(600.00, alimentacao.calcularDescontos(f));

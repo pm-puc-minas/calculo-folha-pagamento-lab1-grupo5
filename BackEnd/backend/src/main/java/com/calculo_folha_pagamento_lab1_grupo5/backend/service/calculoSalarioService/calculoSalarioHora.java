@@ -4,10 +4,10 @@ import com.calculo_folha_pagamento_lab1_grupo5.backend.model.Funcionario;
 import org.springframework.stereotype.Service;
 
 @Service
-public class calcularSalarioHora implements iCalculoAdicionais {
+public class calculoSalarioHora implements iCalculoAdicionais {
 
     private final salarioBrutoTotal salarioBruto;
-    public calcularSalarioHora(salarioBrutoTotal salarioBruto){
+    public calculoSalarioHora(salarioBrutoTotal salarioBruto){
         this.salarioBruto=salarioBruto;
     }
 
