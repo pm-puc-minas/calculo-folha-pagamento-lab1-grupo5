@@ -1,5 +1,8 @@
 package com.calculo_folha_pagamento_lab1_grupo5.backend.model;
 import java.time.LocalDate;
+
+import com.fasterxml.jackson.annotation.JsonFormat;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -17,6 +20,7 @@ public class Funcionario extends Usuario {
     private int horasTrabalhadas;
     private int diasTrabalhadosSemana;
     private int diasTrabalhadosMes;
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd")
     private LocalDate dataAdmissao;
     private Boolean receberValeTransporte=false;
     private Boolean receberValeAlimentacao=false;

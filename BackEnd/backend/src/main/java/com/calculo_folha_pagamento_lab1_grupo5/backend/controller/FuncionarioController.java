@@ -32,12 +32,12 @@ public class FuncionarioController {
         return salvo;
     }
 
-    @GetMapping
+    @GetMapping("/listarFuncionarios")
     public List<Funcionario> listarFuncionarios(){
         return funcionario.findAll();
     }
 
-    @GetMapping("/mostrarDados")
+    @GetMapping("/mostrarDadosFuncionario")
     public List<FuncDTO> listarDados(){
         return funcionario.findAll()
             .stream()
