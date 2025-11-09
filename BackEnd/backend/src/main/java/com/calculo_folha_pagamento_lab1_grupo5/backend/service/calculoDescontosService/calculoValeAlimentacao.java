@@ -1,10 +1,10 @@
 package com.calculo_folha_pagamento_lab1_grupo5.backend.service.calculoDescontosService;
-import com.calculo_folha_pagamento_lab1_grupo5.backend.model.iCalculoDescontos;
+import com.calculo_folha_pagamento_lab1_grupo5.backend.model.ICalculosDescontos;
 import com.calculo_folha_pagamento_lab1_grupo5.backend.model.Funcionario;
 import org.springframework.stereotype.Service;
 
 @Service
-public class calculoValeAlimentacao implements iCalculoDescontos{
+public class calculoValeAlimentacao implements ICalculosDescontos{
 
     @Override
     public double calcularDescontos(Funcionario f){

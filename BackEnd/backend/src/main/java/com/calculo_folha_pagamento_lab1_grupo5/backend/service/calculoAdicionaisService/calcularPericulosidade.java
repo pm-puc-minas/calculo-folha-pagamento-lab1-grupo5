@@ -1,10 +1,9 @@
 package com.calculo_folha_pagamento_lab1_grupo5.backend.service.calculoAdicionaisService;
-import com.calculo_folha_pagamento_lab1_grupo5.backend.model.iCalculoAdicionais;
 import com.calculo_folha_pagamento_lab1_grupo5.backend.model.Funcionario;
 import org.springframework.stereotype.Service;
 
 @Service
-public class calcularPericulosidade implements iCalculoAdicionais {
+public class calcularPericulosidade implements com.calculo_folha_pagamento_lab1_grupo5.backend.model.ICalculosAdicionais {
 
     @Override
     public double calcularAdicionais(Funcionario f) {

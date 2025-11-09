@@ -1,11 +1,11 @@
 package com.calculo_folha_pagamento_lab1_grupo5.backend.service.calculoDescontosService;
 import org.springframework.stereotype.Service;
-import com.calculo_folha_pagamento_lab1_grupo5.backend.model.iCalculoDescontos;
+import com.calculo_folha_pagamento_lab1_grupo5.backend.model.ICalculosDescontos;
 import com.calculo_folha_pagamento_lab1_grupo5.backend.model.Funcionario;
 import com.calculo_folha_pagamento_lab1_grupo5.backend.service.calculoSalarioService.salarioBrutoTotal;
 
 @Service
-public class calculoINSS implements iCalculoDescontos {
+public class calculoINSS implements ICalculosDescontos {
 
     private final salarioBrutoTotal salarioBruto;
 

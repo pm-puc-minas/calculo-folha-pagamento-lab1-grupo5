@@ -1,10 +1,9 @@
 package com.calculo_folha_pagamento_lab1_grupo5.backend.service.calculoSalarioService;
-import com.calculo_folha_pagamento_lab1_grupo5.backend.model.iCalculoAdicionais;
 import com.calculo_folha_pagamento_lab1_grupo5.backend.model.Funcionario;
 import org.springframework.stereotype.Service;
 
 @Service
-public class calculoSalarioHora implements iCalculoAdicionais {
+public class calculoSalarioHora implements com.calculo_folha_pagamento_lab1_grupo5.backend.model.ICalculosAdicionais {
 
     private final salarioBrutoTotal salarioBruto;
     public calculoSalarioHora(salarioBrutoTotal salarioBruto){
