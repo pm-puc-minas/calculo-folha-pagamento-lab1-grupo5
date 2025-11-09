@@ -1,7 +1,7 @@
 # Relatório Sprint 3 - Projeto de Cálculo de Folha de Pagamento
 
 ## Descrição Geral
-Nesta sprint, avançei na implementação da aplicação de cálculo de folha de pagamento, ampliando funcionalidades, organizando melhor a arquitetura do código e garantindo boas práticas como tratamento de exceções, DTOs, persistência e salvamento/carregamento de dados em arquivo JSOn. O projeto utiliza Java com Spring Boot, PostgreSQL e testes unitários, focando em cálculos precisos de salários, benefícios e descontos trabalhistas brasileiros.
+Nesta sprint, avançei na implementação da aplicação de cálculo de folha de pagamento, ampliando funcionalidades, organizando melhor a arquitetura do código e garantindo boas práticas como tratamento de exceções, DTOs, persistência e salvamento/carregamento de dados em arquivo JSON. O projeto utiliza Java com Spring Boot, PostgreSQL e testes unitários, focando em cálculos precisos de salários, benefícios e descontos trabalhistas brasileiros.
 
 ---
 
